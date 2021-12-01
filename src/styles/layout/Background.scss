@@ -6,4 +6,8 @@
   background-repeat: no-repeat;
   background-position: right;
   overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }

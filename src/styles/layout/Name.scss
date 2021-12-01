@@ -1,6 +1,33 @@
 .name__form {
-  font-family: $font_title;
+  font-family: $font_text;
+  color: $white-grey;
   font-weight: unset;
   font-size: 20px;
   line-height: 28px;
+  width: 70vw;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+#name {
+  width: 100%;
+  font-family: $font_text;
+  line-height: 28px;
+  color: $white-grey;
+  padding: 0px 0px 8px;
+  border: none;
+  outline: none;
+  border-radius: 0px;
+  appearance: none;
+  background-image: none;
+  transform: translateZ(0px);
+  font-size: 20px;
+  -webkit-font-smoothing: antialiased;
+  line-height: unset;
+  transition: background-color 1e8s ease 0s, box-shadow 0.1s ease-out 0s;
+  box-shadow: $grey 0px 1px;
+  background-color: transparent;
+  &::placeholder {
+    color: $light-grey;
+  }
 }
